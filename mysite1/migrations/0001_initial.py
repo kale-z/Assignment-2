@@ -25,7 +25,7 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
                 ('title', models.CharField(max_length=100)),
                 ('publication_date', models.DateField()),
-                ('authors', models.ManyToManyField(to='mysite.Author')),
+                ('authors', models.ManyToManyField(to='mysite1.Author')),
             ],
         ),
         migrations.CreateModel(
@@ -43,6 +43,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='book',
             name='publisher',
-            field=models.ForeignKey(to='mysite.Publisher'),
+            field=models.ForeignKey(to='mysite1.Publisher', on_delete=models.CASCADE),
         ),
     ]

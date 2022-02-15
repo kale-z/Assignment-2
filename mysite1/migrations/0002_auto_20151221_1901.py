@@ -7,7 +7,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('mysite', '0001_initial'),
+        ('mysite1', '0001_initial'),
     ]
 
     operations = [
@@ -53,11 +53,11 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='course',
             name='student',
-            field=models.ManyToManyField(to='mysite.Student'),
+            field=models.ManyToManyField(to='mysite1.Student'),
         ),
         migrations.AddField(
             model_name='course',
             name='teacher',
-            field=models.ForeignKey(to='mysite.Teacher'),
+            field=models.ForeignKey(to='mysite1.Teacher', on_delete=models.CASCADE),
         ),
     ]
