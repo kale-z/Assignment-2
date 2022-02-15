@@ -1,4 +1,4 @@
-# Django Practice [ 1 ]
+# Django Practice [ 2 ]
 This is my second Django practice trying to get my hands on Django's Models and their integrations. Therefore, there were not any implemented templates or HTML pages as there is nothing to be displayed. In addition, grasping a glimpse of Administrations control panel via Superuser.
 
 To run this project after cloning, run the following command first for migration
