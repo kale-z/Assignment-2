@@ -1,5 +1,5 @@
-# Django Practice [ 2 ]
-This is my second Django practice trying to get my hands on Django's Models and their integrations. Therefore, there were not any implemented templates or HTML pages as there is nothing to be displayed. In addition, grasping a glimpse of Administrations control panel via Superuser.
+# Django Initial Structure
+This is my second Django practice trying to get my hands on Django's structure by understanding its Models and their integrations. Therefore, there were not any implemented templates or HTML pages as there is nothing to be displayed. In addition, grasping a glimpse of Administrations control panel via Superuser.
 
 
 <br>
